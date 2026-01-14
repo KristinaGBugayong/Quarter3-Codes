@@ -24,3 +24,5 @@ minimum = min(all_values)
 
 print("Maximum value in dataset:", maximum)
 print("Minimum value in dataset:", minimum)
+
+Using an array made it easier to organize and access the step count data for each person. Loops allowed me to calculate totals and averages quickly without manually adding each value. Finding the highest and lowest numbers was also simpler because the data was grouped in an organised format. For me, the easiest part was calculating totals using sum(), while the kinda harder part was gathering all values for the max/min operation.
