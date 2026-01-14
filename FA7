@@ -1,0 +1,13 @@
+scores = [
+    [85, 90, 78, 92],
+    [88, 76, 95, 89],
+    [92, 84, 88, 91]
+]
+
+for i, student_scores in enumerate(scores, start=1):
+    total = sum(student_scores)
+    average = total / len(student_scores)
+    maximum = max(student_scores)
+    
+    print("Student", i, "scores:", student_scores)
+    print("Total:", total, "Average:", round(average, 2), "Highest Score:", maximum, "\n")
