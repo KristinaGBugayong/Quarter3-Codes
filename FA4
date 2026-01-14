@@ -1,0 +1,20 @@
+names = ["Me", "Lia", "Jake"]
+steps = [
+    [4500, 5200, 4800, 5000, 5300],
+    [4000, 4100, 3900, 4200, 4600],
+    [6000, 5800, 5900, 6100, 6200]
+]
+
+totals = []
+
+for i in range(len(steps)):
+    total = sum(steps[i])
+    totals.append(total)
+    print(names[i], total)
+
+highest = max(totals)
+lowest = min(totals)
+
+print("Highest:", names[totals.index(highest)], highest)
+print("Lowest:", names[totals.index(lowest)], lowest)
+print("Difference:", highest - lowest)
